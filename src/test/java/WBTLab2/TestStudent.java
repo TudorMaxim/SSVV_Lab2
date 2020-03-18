@@ -10,6 +10,8 @@ import WBTLab2.service.Service;
 import WBTLab2.validation.*;
 import org.junit.Test;
 
+import java.util.Iterator;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -24,31 +26,32 @@ public class TestStudent {
 
     Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
 
-//    @Test
-//    public void testAddStudent() {
-//        String[] student = {"1", "nume", "123", "asdfd", "asdfds"};
-//        try {
-//            service.saveStudent("5", "Teo", 934);
-//            assertEquals(1, service.findAllStudents().iterator());
-//        } catch (ValidatorException e) {
-//            e.printStackTrace();
-//            assertTrue(false);
-//        }
-//    }
-
-//    @Test
-//    public void testStudentAlreadyExist() {
-//        String[] student = {"2", "nume", "123", "asdfd", "asdfds"};
-//        String[] student2 = {"2", "gigolo", "123", "asdfd", "asdfds"};
-//        try {
-//        } catch (ValidatorException e) {
-//            e.printStackTrace();
-//            assertTrue(false);
-//        }
-//    }
-
-    @Test(expected = ValidationException.class)
-    public void testStudentId() throws ValidationException {
-        service.saveStudent("", "jdj", 434);
+    @Test
+    public void testAddStudent() {
+        try {
+            service.saveStudent("6", "Tudor", 934);
+            int len = 0;
+            Iterator iterator = service.findAllStudents().iterator();
+            while (iterator.hasNext()) {
+                len++;
+                iterator.next();
+            }
+            assertEquals(2, len);
+        } catch (ValidationException e) {
+            e.printStackTrace();
+            assertTrue(false);
+        }
     }
+
+    @Test
+    public void testStudentAlreadyExist() {
+        try {
+            service.saveStudent("6", "Tudor", 934);
+            service.saveStudent("6", "Maria", 934);
+        } catch (ValidationException e) {
+            e.printStackTrace();
+            assertTrue(false);
+        }
+    }
+
 }
