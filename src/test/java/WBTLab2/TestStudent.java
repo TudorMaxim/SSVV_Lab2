@@ -49,7 +49,6 @@ public class TestStudent {
 
     @Test(expected = ValidationException.class)
     public void testStudentId() throws ValidationException {
-        String[] student = {"", "nume", "123", "asdfd", "asdfds"};
         service.saveStudent("", "jdj", 434);
     }
 }
