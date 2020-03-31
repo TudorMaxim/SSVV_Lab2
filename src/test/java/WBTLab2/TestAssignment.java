@@ -29,7 +29,7 @@ public class TestAssignment {
     }
 
     @Test
-    public void testAddAssignmentValid() {
+    public void testAddAssignmentSuccess() {
         int initNo = service.getNumberOfTeme();
         String newId = String.valueOf(initNo + 1);
         service.saveTema(newId, "VVSS", 10, 5);
@@ -38,7 +38,7 @@ public class TestAssignment {
     }
 
     @Test
-    public void testAddAssignmentInvalidId() {
+    public void testAddAssignmentFailure() {
         try {
             service.saveTema("-1", "", 4, 5);
         } catch(ValidationException e) {

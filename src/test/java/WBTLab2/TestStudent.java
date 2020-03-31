@@ -28,7 +28,7 @@ public class TestStudent {
     }
 
     @Test
-    public void testAddStudent() {
+    public void testAddStudentSuccess() {
         try {
             service.saveStudent("6", "Tudor", 934);
             int len = service.getNumberOfStudents();
@@ -40,7 +40,7 @@ public class TestStudent {
     }
 
     @Test
-    public void testStudentAlreadyExist() {
+    public void testStudentFailure() {
         try {
             service.saveStudent("6", "Tudor", 934);
             service.saveStudent("6", "Maria", 934);
