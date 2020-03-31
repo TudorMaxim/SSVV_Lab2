@@ -11,21 +11,22 @@ import WBTLab2.validation.NotaValidator;
 import WBTLab2.validation.StudentValidator;
 import WBTLab2.validation.TemaValidator;
 import WBTLab2.validation.Validator;
+import org.junit.Before;
 import org.junit.Test;
 import WBTLab2.validation.*;
 
 import static org.junit.Assert.*;
 
 public class TestAssignment {
-    Validator<Student> studentValidator = new StudentValidator();
-    Validator<Tema> temaValidator = new TemaValidator();
-    Validator<Nota> notaValidator = new NotaValidator();
 
-    StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "studenti.xml");
-    TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme.xml");
-    NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
+    Service service;
 
-    Service service = new Service(null, fileRepository2, null);
+    @Before
+    public void setUp() {
+        Validator<Tema> temaValidator = new TemaValidator();
+        TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme.xml");
+        service = new Service(null, fileRepository2, null);
+    }
 
     @Test
     public void testAddAssignmentValid() {

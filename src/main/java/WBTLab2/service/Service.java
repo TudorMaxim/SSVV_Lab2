@@ -40,6 +40,16 @@ public class Service {
         return len;
     }
 
+    public int getNumberOfStudents() {
+        int len = 0;
+        Iterator iterator = this.findAllStudents().iterator();
+        while (iterator.hasNext()) {
+            len++;
+            iterator.next();
+        }
+        return len;
+    }
+
     public int saveStudent(String id, String nume, int grupa) {
         Student student = new Student(id, nume, grupa);
         Student result = studentXmlRepo.save(student);
