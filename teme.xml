@@ -20,4 +20,14 @@
         <Deadline>10</Deadline>
         <Startline>5</Startline>
     </tema>
+    <tema ID="5">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>5</Startline>
+    </tema>
+    <tema ID="6">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>5</Startline>
+    </tema>
 </Entitati>

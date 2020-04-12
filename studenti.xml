@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="1">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="2">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="3">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="4">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="5">
-        <Nume>Teo</Nume>
+        <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
     <student ID="6">
-        <Nume>Tudor</Nume>
-        <Grupa>934</Grupa>
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="7">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
     </student>
 </Entitati>

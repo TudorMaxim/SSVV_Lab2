@@ -54,6 +54,7 @@ public class Service {
         Student student = new Student(id, nume, grupa);
         Student result = studentXmlRepo.save(student);
 
+        System.out.println(result);
         if (result == null) {
             return 1;
         }
