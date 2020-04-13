@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="22">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="23">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="24">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="25">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="26">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="10">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="11">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="12">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="13">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="14">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="15">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="16">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="17">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="18">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="19">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="1">
         <Nume>Tudor</Nume>
         <Grupa>934</Grupa>
@@ -27,5 +87,21 @@
     <student ID="7">
         <Nume>Ioana</Nume>
         <Grupa>937</Grupa>
+    </student>
+    <student ID="8">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="9">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="20">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="21">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
     </student>
 </Entitati>

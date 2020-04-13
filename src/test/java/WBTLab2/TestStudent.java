@@ -29,7 +29,11 @@ public class TestStudent {
         service = new Service(fileRepository1, null, null);
     }
 
+
     @Test
+    /**
+     * TestCase no. 1
+     */
     public void testAddStudentSuccess() {
 
         int initNo = service.getNumberOfStudents();
@@ -42,6 +46,9 @@ public class TestStudent {
     }
 
     @Test
+    /**
+     * TestCase no. 2
+     */
     public void testStudentFailure() {
         int initNo = service.getNumberOfStudents();
         String newId = String.valueOf(initNo + 1);
@@ -56,6 +63,9 @@ public class TestStudent {
     }
 
     @Test
+    /**
+     * TestCase no. 3
+     * */
     public void testStudentFailure_IDNegative() {
         int result = service.saveStudent("-1", "Tudor", 934);
         int actualResult = 1;
@@ -63,6 +73,9 @@ public class TestStudent {
     }
 
     @Test
+    /**
+     * TestCase no. 4
+     * */
     public void testStudentFailure_IDNull() {
         int result = service.saveStudent(null, "Tudor", 934);
         int actualResult = 1;
@@ -70,6 +83,9 @@ public class TestStudent {
     }
 
     @Test
+    /**
+     * TestCase no. 5
+     * */
     public void testStudentFailure_IDEmpty() {
         int result = service.saveStudent("", "Tudor", 934);
         int actualResult = 1;
@@ -77,16 +93,29 @@ public class TestStudent {
     }
 
     @Test
-    public void testStudentSuccess_Name() {
-        int initNo = service.getNumberOfStudents();
-        String newId = String.valueOf(initNo + 1);
-
-        int result = service.saveStudent(newId, "Ioana", 934);
-        int actualResult = 0;
+    /**
+     * TestCase no. 6
+     * */
+    public void testStudentFailure_IDNotValid() {
+        int result = service.saveStudent("123abc", "Tudor", 934);
+        int actualResult = 1;
         assertEquals(result, actualResult);
     }
 
+//    @Test
+//    public void testStudentSuccess_Name() {
+//        int initNo = service.getNumberOfStudents();
+//        String newId = String.valueOf(initNo + 1);
+//
+//        int result = service.saveStudent(newId, "Ioana", 934);
+//        int actualResult = 0;
+//        assertEquals(result, actualResult);
+//    }
+
     @Test
+    /**
+     * TestCase no. 7
+     * */
     public void testStudentFailure_NameNull() {
         int initNo = service.getNumberOfStudents();
         String newId = String.valueOf(initNo + 1);
@@ -97,6 +126,9 @@ public class TestStudent {
     }
 
     @Test
+    /**
+     * TestCase no. 8
+     * */
     public void testStudentFailure_NameEmpty() {
         int initNo = service.getNumberOfStudents();
         String newId = String.valueOf(initNo + 1);
@@ -107,6 +139,9 @@ public class TestStudent {
     }
 
     @Test
+    /**
+     * TestCase no. 9
+     * */
     public void testStudentFailure_NameisNotValid() {
         int initNo = service.getNumberOfStudents();
         String newId = String.valueOf(initNo + 1);
@@ -116,13 +151,33 @@ public class TestStudent {
         assertEquals(result, actualResult);
     }
 
+//    @Test
+//    public void testStudentSuccess_Group() {
+//        int initNo = service.getNumberOfStudents();
+//        String newId = String.valueOf(initNo + 1);
+//
+//        int result = service.saveStudent(newId, "Ioana", 934);
+//        int actualResult = 0;
+//        assertEquals(result, actualResult);
+//    }
+
     @Test
-    public void testStudentSuccess_Group() {
+    public void testStudentFailure_GroupLessMIN() {
         int initNo = service.getNumberOfStudents();
         String newId = String.valueOf(initNo + 1);
 
-        int result = service.saveStudent(newId, "Ioana", 934);
-        int actualResult = 0;
+        int result = service.saveStudent(newId, "Ioana", 109);
+        int actualResult = 1;
+        assertEquals(result, actualResult);
+    }
+
+    @Test
+    public void testStudentFailure_GroupMIN() {
+        int initNo = service.getNumberOfStudents();
+        String newId = String.valueOf(initNo + 1);
+
+        int result = service.saveStudent(newId, "Ioana", 110);
+        int actualResult = 1;
         assertEquals(result, actualResult);
     }
 
@@ -136,15 +191,6 @@ public class TestStudent {
         assertEquals(result, actualResult);
     }
 
-    @Test
-    public void testStudentFailure_GroupMIN() {
-        int initNo = service.getNumberOfStudents();
-        String newId = String.valueOf(initNo + 1);
-
-        int result = service.saveStudent(newId, "Ioana", 109);
-        int actualResult = 1;
-        assertEquals(result, actualResult);
-    }
 
     @Test
     public void testStudentSuccess_GroupMAX() {
@@ -158,6 +204,16 @@ public class TestStudent {
 
     @Test
     public void testStudentFailure_GroupMAX() {
+        int initNo = service.getNumberOfStudents();
+        String newId = String.valueOf(initNo + 1);
+
+        int result = service.saveStudent(newId, "Ioana", 938);
+        int actualResult = 1;
+        assertEquals(result, actualResult);
+    }
+
+    @Test
+    public void testStudentFailure_GroupGreaterMAX() {
         int initNo = service.getNumberOfStudents();
         String newId = String.valueOf(initNo + 1);
 
