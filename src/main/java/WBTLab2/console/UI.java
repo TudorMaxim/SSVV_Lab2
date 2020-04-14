@@ -107,6 +107,7 @@ public class UI {
         System.out.println("Introduceti valoarea notei: ");
         String linie = scanner.nextLine();
         double valNota = Double.parseDouble(linie);
+        System.out.println(valNota);
 
         System.out.println("Introduceti saptamana de predare a temei: ");
         String linie2 = scanner.nextLine();
@@ -116,6 +117,7 @@ public class UI {
         String feedback = scanner.nextLine();
 
         int result = service.saveNota(idStudent, idTema, valNota, predata, feedback);
+        System.out.println("Result" + result);
         if (result == 1) {
             service.createStudentFile(idStudent, idTema);
             System.out.println("Nota adaugata cu succes! \n");

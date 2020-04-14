@@ -77,7 +77,6 @@ public class Service {
         }
         else {
             int deadline = temaXmlRepo.findOne(idTema).getDeadline();
-
             if (predata - deadline > 2) {
                 valNota =  1;
             } else {

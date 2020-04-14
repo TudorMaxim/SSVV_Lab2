@@ -1,19 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="11">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="12">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="13">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="14">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="15">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="16">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="17">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="18">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="19">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="1">
-        <Nume>Tudor</Nume>
+        <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
     <student ID="2">
         <Nume>Ioana</Nume>
-        <Grupa>937</Grupa>
+        <Grupa>934</Grupa>
     </student>
     <student ID="3">
+        <Nume>Maria</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="4">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="5">
         <Nume>Ioana</Nume>
         <Grupa>111</Grupa>
     </student>
-    <student ID="4">
+    <student ID="6">
         <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="7">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="8">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="9">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="10">
+        <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
 </Entitati>
