@@ -30,6 +30,21 @@
         <Deadline>10</Deadline>
         <Startline>1</Startline>
     </tema>
+    <tema ID="17">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>1</Startline>
+    </tema>
+    <tema ID="18">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>1</Startline>
+    </tema>
+    <tema ID="19">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>1</Startline>
+    </tema>
     <tema ID="1">
         <Descriere>VVSS</Descriere>
         <Deadline>10</Deadline>
@@ -75,9 +90,19 @@
         <Deadline>10</Deadline>
         <Startline>1</Startline>
     </tema>
+    <tema ID="20">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>1</Startline>
+    </tema>
     <tema ID="10">
         <Descriere>VVSS</Descriere>
         <Deadline>10</Deadline>
         <Startline>1</Startline>
+    </tema>
+    <tema ID="21">
+        <Descriere>VVSS</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>5</Startline>
     </tema>
 </Entitati>
