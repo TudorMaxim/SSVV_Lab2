@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
-    <student ID="22">
+    <student ID="44">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="45">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="46">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="47">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="48">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="49">
         <Nume>Tudor</Nume>
         <Grupa>934</Grupa>
     </student>
-    <student ID="23">
-        <Nume>Ioana</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="24">
-        <Nume>Ioana</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="25">
-        <Nume>Ioana</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="26">
-        <Nume>Ioana</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="27">
-        <Nume>Tudor</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="28">
+    <student ID="50">
         <Nume>Ioana</Nume>
         <Grupa>937</Grupa>
     </student>
-    <student ID="29">
+    <student ID="51">
         <Nume>Ioana</Nume>
         <Grupa>111</Grupa>
     </student>
-    <student ID="30">
-        <Nume>Tudor</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="31">
+    <student ID="52">
         <Nume>Tudor</Nume>
         <Grupa>934</Grupa>
     </student>
@@ -44,32 +40,16 @@
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
-    <student ID="32">
-        <Nume>Tudor</Nume>
-        <Grupa>934</Grupa>
-    </student>
     <student ID="11">
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
-    </student>
-    <student ID="33">
-        <Nume>Ioana</Nume>
-        <Grupa>937</Grupa>
     </student>
     <student ID="12">
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
-    <student ID="34">
-        <Nume>Ioana</Nume>
-        <Grupa>111</Grupa>
-    </student>
     <student ID="13">
         <Nume>Ioana</Nume>
-        <Grupa>934</Grupa>
-    </student>
-    <student ID="35">
-        <Nume>Tudor</Nume>
         <Grupa>934</Grupa>
     </student>
     <student ID="14">
@@ -138,6 +118,94 @@
     </student>
     <student ID="21">
         <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="22">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="23">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="24">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="25">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="26">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="27">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="28">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="29">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="30">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="31">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="32">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="33">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="34">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="35">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="36">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="37">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="38">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="39">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="40">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
+    </student>
+    <student ID="41">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
+    <student ID="42">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="43">
+        <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
 </Entitati>
