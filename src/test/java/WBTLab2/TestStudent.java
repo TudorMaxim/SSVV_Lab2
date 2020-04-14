@@ -53,7 +53,9 @@ public class TestStudent {
 
         int result1 = service.saveStudent(newId, "Tudor", 934);
         int studentsNo1 = service.getNumberOfStudents();
+        assertEquals(result1, 0);
         int result2 = service.saveStudent(newId, "Maria", 934);
+        assertEquals(result2, 1);
         int studentsNo2 = service.getNumberOfStudents();
 
         //the number of the students remains the same, hence we cannot add a student with the same id twice

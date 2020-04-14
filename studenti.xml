@@ -36,6 +36,10 @@
         <Nume>Tudor</Nume>
         <Grupa>934</Grupa>
     </student>
+    <student ID="31">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="10">
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
