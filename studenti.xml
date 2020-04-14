@@ -44,16 +44,32 @@
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
+    <student ID="32">
+        <Nume>Tudor</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="11">
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
+    </student>
+    <student ID="33">
+        <Nume>Ioana</Nume>
+        <Grupa>937</Grupa>
     </student>
     <student ID="12">
         <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
+    <student ID="34">
+        <Nume>Ioana</Nume>
+        <Grupa>111</Grupa>
+    </student>
     <student ID="13">
         <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="35">
+        <Nume>Tudor</Nume>
         <Grupa>934</Grupa>
     </student>
     <student ID="14">

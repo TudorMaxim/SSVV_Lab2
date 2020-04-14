@@ -4,7 +4,7 @@ import WBTLab2.domain.Tema;
 
 public class TemaValidator implements Validator<Tema> {
     public void validate(Tema tema) throws ValidationException {
-        if (tema.getID() == null || tema.getID().equals("")) {
+        if (tema.getID() == null || tema.getID().equals("") || !this.isNumber(tema.getID())) {
             throw new ValidationException("ID invalid! \n");
         }
         if (tema.getDescriere() == null || tema.getDescriere().equals("")) {
@@ -16,6 +16,10 @@ public class TemaValidator implements Validator<Tema> {
         if (tema.getStartline() < 1 || tema.getStartline() > 14 || tema.getStartline() > tema.getDeadline()) {
             throw new ValidationException("Data de primire invalida! \n");
         }
+    }
+
+    private boolean isNumber(String id) {
+        return id.matches("[0-9]+");
     }
 }
 
