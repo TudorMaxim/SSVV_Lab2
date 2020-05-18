@@ -39,44 +39,44 @@ public class BigBangIntergration {
         service = new Service(fileRepository1, fileRepository2, fileRepository3);
     }
 
-//    @Test
-//    public void testaddGradeBigBang(){
-//        int initNo = service.getNumberOfStudents();
-//        String newId = String.valueOf(initNo + 1);
-//        service.saveStudent(newId, "Ioana", 934);
-//
-//        int initNoTeme = service.getNumberOfTeme();
-//        String newIdTema = String.valueOf(initNoTeme + 1);
-//        service.saveTema(newIdTema, "VVSS", 10, 1);
-//        assertEquals(service.saveNota(newId, newIdTema, 9.5, 5, "very good!"), 1);
-//    }
-//
-//    @Test
-//    public void testaddStudentBigBang(){
-//        int initNo = service.getNumberOfStudents();
-//        String newId = String.valueOf(initNo + 1);
-//
-//        int actualResult = service.saveStudent(newId, "Ioana", 934);
-//        int expectedResult = 0;
-//        assertEquals(expectedResult, actualResult);
-//    }
-//
-//    @Test
-//    public void testaddAssignmentBigBang(){
-//        int initNo = service.getNumberOfTeme();
-//        String newId = String.valueOf(initNo + 1);
-//
-//        int actualResult = service.saveTema(newId, "VVSS", 10, 1);
-//        int expectedResult = 0;
-//        assertEquals(expectedResult, actualResult);
-//    }
-//
-//    @Test
-//    public void testintegrateBigBang(){
-//        testaddGradeBigBang();
-//        testaddAssignmentBigBang();
-//        testaddStudentBigBang();
-//    }
+    @Test
+    public void testaddGradeBigBang(){
+        int initNo = service.getNumberOfStudents();
+        String newId = String.valueOf(initNo + 1);
+        service.saveStudent(newId, "Ioana", 934);
+
+        int initNoTeme = service.getNumberOfTeme();
+        String newIdTema = String.valueOf(initNoTeme + 1);
+        service.saveTema(newIdTema, "VVSS", 10, 1);
+        assertEquals(service.saveNota(newId, newIdTema, 9.5, 5, "very good!"), 1);
+    }
+
+    @Test
+    public void testaddStudentBigBang(){
+        int initNo = service.getNumberOfStudents();
+        String newId = String.valueOf(initNo + 1);
+
+        int actualResult = service.saveStudent(newId, "Ioana", 934);
+        int expectedResult = 0;
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testaddAssignmentBigBang(){
+        int initNo = service.getNumberOfTeme();
+        String newId = String.valueOf(initNo + 1);
+
+        int actualResult = service.saveTema(newId, "VVSS", 10, 1);
+        int expectedResult = 0;
+        assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testintegrateBigBang(){
+        testaddGradeBigBang();
+        testaddAssignmentBigBang();
+        testaddStudentBigBang();
+    }
 
     @Test
     public void testAddStudentTopDown(){

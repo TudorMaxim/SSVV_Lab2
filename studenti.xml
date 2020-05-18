@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="11">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="12">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="13">
+        <Nume>Ioana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="14">
+        <Nume>Andrei</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="15">
+        <Nume>Andrei</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="16">
+        <Nume>Andrei</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="1">
         <Nume>Andrei</Nume>
         <Grupa>934</Grupa>
@@ -30,6 +54,14 @@
     </student>
     <student ID="8">
         <Nume>Andrei</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="9">
+        <Nume>Andrei</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="10">
+        <Nume>Ioana</Nume>
         <Grupa>934</Grupa>
     </student>
 </Entitati>
